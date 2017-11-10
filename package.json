@@ -16,8 +16,9 @@
     "build:storybook": "build-storybook",
     "ci-check": "yarn test --runInBand",
     "clean": "rimraf lib scss",
-    "commigmsg": "validate-commit-msg",
-    "prettier": "prettier --write **/*.{js,css,scss}",
+    "commitmsg": "validate-commit-msg",
+    "prettier": "prettier --write \"**/*.{js,css,scss}\"",
+    "precommit": "lint-staged",
     "develop": "start-storybook -p 3000",
     "test": "jest"
   },

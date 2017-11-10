@@ -7,7 +7,5 @@ storiesOf('Button', module).addWithInfo(
   `
     Button
   `,
-  () => (
-    <Button />
-  )
+  () => <Button />
 );
